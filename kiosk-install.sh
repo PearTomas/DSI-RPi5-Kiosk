@@ -170,7 +170,7 @@ sleep 2
 # Launch Chromium in kiosk on Wayland
 "\$CHROMIUM_BIN" \\
   --kiosk "\$URL" \\
-  --noerrdialogs --disable-infobars --incognito --disable-translate \\
+  --noerrdialogs --disable-infobars --incognito --disable-translate —disable-autofill \\
   --enable-features=UseOzonePlatform --ozone-platform=wayland &
 EOF
 
